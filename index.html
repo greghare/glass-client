@@ -34,10 +34,15 @@
             <div class="app" style="background: #000;">
                 <webview src="https://www.netflix.com/browse"></webview>
             </div>
+            <div class="app" style="background: #000;">
+                <webview src="https://tv.youtube.com"></webview>
+            </div>
         </div>
+        <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+        <script src="js/voice-receiver.js"></script>
     </body>
     <script>
         // You can also require other files to run in this process
-        require('./renderer.js')
+        require('../js/voice-receiver.js')
     </script>
 </html>
